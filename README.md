@@ -102,7 +102,7 @@ If using these in a map: you will need to manually include the shader files if p
 # Limitations
 * Custom pixel shaders do not work on DirectX 8. The screen will simply render like normal.
 * Source is old and the shaders do not support everything that modern pixel shaders can offer, as the only shader model supported is 2.0b. For example, repeating for-loops don't exist, instead the compiler expands the instructions (which can lead to the instruction limit being hit quickly for large or complex loops).
-* Native lightmap is not available if applying these to brush textures (it shouldbe be possible to sample a 2nd texture as the lightmap to workaround this)
+* Native lightmap is not available if applying these to brush textures (it should be possible to sample a 2nd texture as the lightmap to workaround this)
 * Texture dimension constants are not available in Left 4 Dead 2 and Portal 2 (no workaround known yet)
 
 # Credits
